@@ -37,3 +37,4 @@ kubectl delete deployment --all
 ```
 kubectl delete secret --all
 ```
+### Reference : https://kubernetes.io/docs/home/ 
