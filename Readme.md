@@ -35,8 +35,8 @@ minikube service webapp-service
 ```
 ++++++++++++++++++++++++++++++++++++++
 
-##Cleanup Commands
-####To delete all deployments, use the following command:
+## Cleanup Commands
+#### To delete all deployments, use the following command:
 ```
 kubectl delete deployment --all
 ```
