@@ -11,8 +11,7 @@ apt-get install kubectl
 apt-get install minikube  
 ```
 ++++++++++++++++++++++++++++++++++++++
-
-
+#### These are some commands which use for creating the pod.
 ```
 minikube start
 kubectl get pod
@@ -27,7 +26,7 @@ kubectl get svc
 minikube ip
 kubectl get node -o wide
 ```
-
+#### To start the service
 ```
 minikube service webapp-service
 ```
