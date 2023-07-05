@@ -1,5 +1,8 @@
 # This is the MiniKube Environment  Mern app Deployment
 
+### The result : 
+![image](https://github.com/HitanshuGupta/mern-app-with-k8s/assets/72181617/b377bd5d-83c6-4c53-907b-b93aba405fbc)
+
 
 ```
 apt-get install kubectl
