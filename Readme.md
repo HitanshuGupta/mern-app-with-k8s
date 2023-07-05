@@ -1,11 +1,14 @@
-# This is the MiniKube Environment  Mern app Deployment
-### The architecture:
-![image](https://github.com/HitanshuGupta/mern-app-with-k8s/assets/72181617/4d3c3381-6acd-4a6a-a6c5-65d8bbca8012)
+# MiniKube Environment Mern App Deployment
 
-### The result:
-![image](https://github.com/HitanshuGupta/mern-app-with-k8s/assets/72181617/b377bd5d-83c6-4c53-907b-b93aba405fbc)
+## Architecture
+![Mern App Architecture](https://github.com/HitanshuGupta/mern-app-with-k8s/assets/72181617/4d3c3381-6acd-4a6a-a6c5-65d8bbca8012)
 
-#### For set-up, the Control Plane (Master) and Worker Node Use these commands.
+## Result
+![Deployment Result](https://github.com/HitanshuGupta/mern-app-with-k8s/assets/72181617/b377bd5d-83c6-4c53-907b-b93aba405fbc)
+
+## Set-Up Instructions
+To set up the Control Plane (Master) and Worker Node, use the following commands:
+
 ```
 apt-get install kubectl   
 apt-get install minikube  
@@ -31,10 +34,15 @@ kubectl get node -o wide
 minikube service webapp-service
 ```
 ++++++++++++++++++++++++++++++++++++++
+
+##Cleanup Commands
+####To delete all deployments, use the following command:
 ```
 kubectl delete deployment --all
 ```
 ```
 kubectl delete secret --all
 ```
-### Reference : https://kubernetes.io/docs/home/ 
+
+
+#### For more information, refer to the : https://kubernetes.io/docs/home/ 
