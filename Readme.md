@@ -3,12 +3,14 @@
 ### The result : 
 ![image](https://github.com/HitanshuGupta/mern-app-with-k8s/assets/72181617/b377bd5d-83c6-4c53-907b-b93aba405fbc)
 
-
+#### For set-up the Control Plane(Master) and Worker Node Use these commaonds.
 ```
-apt-get install kubectl
-apt-get install minikube
+apt-get install kubectl   
+apt-get install minikube  
 ```
 ++++++++++++++++++++++++++++++++++++++
+
+
 ```
 minikube start
 kubectl get pod
